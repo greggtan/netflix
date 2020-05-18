@@ -1,0 +1,498 @@
+<div class="navBarWrapper">
+    <nav class="navbar">
+        <div class="navImg flexCenter">
+            <img src="https://cdn.clipart.email/1dcf20271a666c6a5b42d839ff84ab5c_download-free-png-netflix-logo-png-transparent-image-png-arts-_2084-2084.png">
+        </div>
+
+        <div class="navLinksDiv flexAround">
+            <span class="navLink">Series</span>
+            <span class="navLink">Films</span>
+            <span class="navLink">My List</span>
+        </div>
+
+    </nav>
+</div>
+
+<div class="coverPic">
+    <div class="movieCategories flexCenter">
+        <span>Dystopian</span>
+        <span class='bullet'>&#8226 </span>
+        <span>Exciting</span>
+        <span class='bullet'>&#8226 </span>
+        <span>Cyberpunk</span>
+        <span class='bullet'>&#8226 </span>
+        <span>Sci-Fi Adventure</span>
+    </div>
+
+    <div class="movieOptionsDiv flexAround">
+        <div class="movieOption flexColumn">
+            <i class="fas fa-plus"></i>
+            <span>My List</span>
+        </div>
+
+        <div class="playButton flexCenter">
+            <i class="fas fa-play"></i>
+            <span>Play</span>
+        </div>
+
+        <div class="movieOption flexColumn">
+            <i class="fas fa-info-circle"></i>
+            <span>Info</span>
+        </div>
+    </div>
+
+</div>
+
+<div id="showCatalogues" class="showCatalogues">
+    <!-- continue watching -->
+    <div id="continueWatchingWrapper">
+        <div class=" continueCatalogue cataloguePadding">
+
+            <span>Continue Watching for Greg</span>
+
+            <div class="flexStart continueShowDiv">
+
+                <div class="continueShow">
+                    <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVTKwf_bFD9nTcYBCK_wdZTPNqxeF0aKsWChM-1XS1iY6KvWe_yH21b15-BjSEpdT5fUMEKfGfYxaMdrBVuumaoviUMkDaq8sqz6NSVZaXqUBwp23df9IY_Y_II4FJBzq49zg2Q7EhK6bF3Rb6Tpd21haTObNg.jpg?r=866">
+                    <div class="continueShowDetails flexBetween">
+                        <span>S1:E5</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+                <div class="continueShow">
+                    <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeN4deMz_jBwCRRFl702JhCq3taQCpQ8OI9KuAjt9dtoGAtL_IB9OxZUy2a-5bizdpeeHY56gX4mSo2r_R5_ZDpyccdI6rxQudjfpvB58GeYwNWLPmT9FjwmbRUrLW5lPtXO7XcEfm13UNjiaEVGJYgfqTDaBg.jpg?r=b56">
+                    <div class="continueShowDetails flexBetween">
+                        <span>S1:E3</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+
+                <div class="continueShow">
+                    <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbewVVpoK4krXgUG9hAlNlMgRV_sIzkkz8KRDTe_kVd3Vs-e-qqha-oSOMOY2Qrrp78_WYUFXWTUeIeDnPkPVmaB7VR8pJxc9b2tbQRpKluDkVTR35rbW_kmW2ZT.jpg?r=e29">
+                    <div class="continueShowDetails flexBetween">
+                        <span>S2:E1</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+
+                <div class="continueShow">
+                    <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABY_YIs5t7-YulLsNuP9pdto0VaKx7Yd-cAjBNMKMHgr6Xy6xidQOqTDP_4zSEW01sU58zvzBjtibIDOaysIcN5DGDaYOVfOkafHJHrVNAT8A9ra0Sbg7zrAkz4EHbjWUR4GdFEH0xxztuGE6m6-WQNnD9rxppg.jpg?r=5ba">
+                    <div class="continueShowDetails flexBetween">
+                        <span>S1:E12</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+                <div class="continueShow">
+                    <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWLbklukBnJPbdD-EWak2wea9HPddYnE_db2VZcQBZKga1x-Zxuru51j96OeiAg0nDyJHracraGJSOv6whgiUwp4HVkK6jLDbVz3TZfBbTDHQNPOc5WyTG8RyB5r.jpg?r=f6a">
+                    <div class="continueShowDetails flexBetween">
+                        <span>S1:E5</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- 4 dynamic normal movies (append in this wrapper) -->
+    <div id="normalMovieWrapper1">
+    </div>
+
+    <!-- for now i hardcode, but actually just call my loadMovieCatalogue(wrapperID, category) -->
+    <div class="normalCatalogue cataloguePadding">
+        <span>Trending Now</span>
+        <div class="xScroll flexStart normalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdoGd8bIHR9x2BuKmyDvD2hNzA1bip-KB7l2dRoehLEBY52f5NfoF-2Vjr0kXoQ7ZSanV72pcgN3veOwfWBPNR0luWqcWG7BbLJH64Invbp9HKwokQ1UJKPX0TkrP2ATPa_R8TO-SCXroi1lnFOTM-f4TuxpyEVoSYXGYRixxbu5Rv9EK5tMk6w.jpg?r=eac">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaaVOsmoBXppbtSnVMmjnSKsUrAWb5mhgvYTItTlClBeom-BxsdwoH1gFo4Xp6m3ZYNskHplt7tlzBOzstNvVz9kL-abt3Ubcw3KtaqNOOL8RDR6f2Y-M7Ly3Efv.jpg?r=613">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQcqNDK5E8-O6hQNu4mwArj_OqBSr2I_jBjcSc4T7YbJNZJxGn-nJbpkS5S-DW4j2RZ491dzwA9V9aQgf4rDcBeE12CSFu97K5j3wSpPB4HxDBkgvw2qQlMmsxK-.jpg?r=9f9">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSEHFuV2qxuBzT69ryeyEqKplVPIsaxWPwVNXicAjmmC5zzB8nJiBQZvc-6gWNA6S5cSvtG4aUDO3CQ2kYiVrYVvn7pCZhGvrXEg6yr1zdzE2ivb5fA1lyPXMa5B.jpg?r=65a">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABU9F6G-DiNRajGX-xjPWB_-8WcadhGkBsmEs2_c0cScivMkT3ar9b9Er8o2bLCYTeeq3O5cTP12e5Hl8NxWeDuSsJxxSog_pqO2rP1O87dOOqgG6dO5NqWmrt51w.jpg?r=e14">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdX4b9aJXNiNqohyE0bJEzt_WnGhKVy0v0WzkmSUeIXX18LILOIy_4VknMDPZhyT--4eoIfnF3hC8gC4VgNMN058JgLmW-A7-Mwija1VI0VYXKi-xDVpaYK1XlCzunp8QnWv37YtL8H5odXXI-3Y0iE9FGXBvA.jpg?r=f8d">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSW0zKZi3bsk34wxvn3dPGjFxSj06aTD6dOzEQU4_UU2J5WRBVXm-kAGkXjsf2q4KP5bD6TactIKnK1VGSPISkM4lt9AzjUAshyA79J_rQ2D-sLfU9I5Df6ZLz0oiaBpTcsy31txcwGid6SnVxd_SH80Pk3HmkRt1x5W3l6UydVR2TVSG0nXO4XNXaS_MgLlToBoAUQl2-a1QC7WiP2PNkZA.jpg?r=257">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZZxdc21ndhEsmOO-EQZ1CpsjMDyrpmgZzc3qgNJf0b_DhnBjkNSnqun1Q_pIs75LlLIaWNHzLLu5g4NRbnI1oYW2zwPmY1fc_keCisYUVDxeeJRA_Zg_IM_gdx3.jpg?r=937">
+
+        </div>
+    </div>
+
+    <div class="normalCatalogue cataloguePadding">
+        <span>Critically-acclaimed TV Programmes</span>
+        <div class="xScroll flexStart normalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABf9LJSp_w9ov7ziPCQFPk2px0ayR1vHjOo-tDHHvU764VkPpL0gKPFgc3eS-b_WPiBFf3KCTnLPVlpcqPrbSB0oGnObHIyfBBS-oVnooWaS8eg5TdXrZKMncUqlr.jpg?r=f7c">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABetuNV-EtZyUDShYA2lmeClXu4SqDbDDRsu2noPUbLES-nuK1kbCSdoUqFuUingWL2jy5KezCP0pcVjSQME-9ZEkmqUPgDegzWPd3uvU_4CM9QMrA7EMgGy1QNtQ.jpg?r=4e4">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe8mnQOuNifms6oSwQDFnpwcimrrOXcPZuIna6jpUWLkXkU8HEuznX3bbaEV1uQsYp30YJHbXAC7HYm3kuBROJ1-2S-99fqX6GjDNLf-GsOnLRkO-oxmcIAIJRPg.jpg?r=b94">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABf3_4iBiQLVCrhxJXJdtaRqMuPvmHkpRlaVoyrQDja1_Ytftfrkhcon00BzxUU-8fNL506yMfRhdtbxyA0sJ3bZoENqA57ztuRW08XYEEdC0TgJfN7KYqfZLhff2f9E8HX4m78_AG7WVOpyD-nYYGxUII6UZmA.jpg?r=91c">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRRPGJ0MF5fDxCM0kzs8QTnR0zRnyuqci7FSXqj0mMF_dx-tbZtVkfiYO9cta-sM_LNFH86XXY5ZZEC7isslH5tpjkpLfYznb9Q-wDIXc1viwrImzCet4wBPYxs1.jpg?r=f16">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRsjPkQizQKCoZxp0wz-ou5xzoj2bv7kK2q8kc2tjZtaBPO1Elycmw3ZCUnnI7kJEiT8bNYQ0rldY7asqqvd_yIQlPFjl434rDucM2Bh6VTPrfvYnpnWPqnrut-Z.jpg?r=e20">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbF8TnEobSl2r9EnjEB_pqAyiSnwujKGQoKIywsFjHRGqBFIGeQvc7cMCBQ_lsOL5htRj5W_lcUsrGH_ljt_fq1b_COt3DzxWnrDXTI2Ik-F7VQtympjYws9Al6O.jpg?r=ddf">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeZpQhEozqf0aiOAnN4s0JskyYhkE7doI8GMC7OwWmNLkwHxP-dtl3zh-iz3bY9P7GiHPc0-D8VI_rwba9tuOqkxI6XMdjTZUcNOvO1yC0ZQWZQEu2vXr5IpHZDX.jpg?r=8fb">
+
+        </div>
+    </div>
+
+    <div class="normalCatalogue cataloguePadding">
+        <span>Suspenseful Western TV Shows</span>
+        <div class="xScroll flexStart normalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXUiOXv7R3tK29x7_-_EmYAMQiZg0aB4N6hjORfbNPhVDVrtydVtna3QpHyWDKZqwbuQClhLhzEyHyYbJlUbsZlP_90cjODVs6pzgSc-iMOf9yw1hlNXQ2AHDTGu.jpg?r=d39">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcdHitQkwKq--56keNcj6FwuDEV108CDvAR4Au3YomJ9smEKalVSGzrToYGr9p5kqNm62qMy7BjvvUbGqBG5gQRkmQgLFpnTCEt3aLq_plhNXMPvPtLUJEOfMG0t.jpg?r=495">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRWoh7Fsml6qX9dP349CRpR0AfhA4d2KcZWu4VKiDIJ_D59R_y0EbcHydzoU16ll_Z3Qdym5J5pyXR-N_ECVmeBre-GtRgbd5ITcL0yZwEOP-z836EBGr5-8J94F.jpg?r=db2">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABadmwExnOG92Q4bwx0zZsJmzbDyE34l_l458SAecFDweqx3Nw9OLI9_MkHQuNWTNrvgO_ngjxQ42_z_13-DlDluBVsBS5xIdZSHzbwxp1kBIt_rjeNNi1bMk0_UF.jpg?r=eba">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe0BWm80Bj7LNrSNQpIHMuVTtgwL5-SPoT8edIT_S47OdaWVLpXSRtqyCczgZ4zfvTM0D8mupcX5YKGx5h9c8BpNI227EGsIXAWubiz9fKioobidi_aha1xpqoTg.jpg?r=94d">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeeI7iI5Q3cnRovGksqQSc3jpNH2FJmF8gBK869OullEMyFzfOYsCRQT29KC3aSplK-ZzGMtmZKkUMnXLOUTzIRAMm5BHk3TD4tXLWhJmscv2gc6i2aabTlvBBvB.jpg?r=2d5">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR3MC8MSCoFPmXBH1fWd7qQ_1GpeiZ-NK2tnnRnmpvTkCIViyQo0LPk-M0jLQBR3r7NrhxJXHQxftctRMFHNUEzpUbxnkoYVAH7_OX8izzGHggMTfncQRuOj0VbE.jpg?r=9b3">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABekLxcy_CZK03RA-5Czeo86id7eEr56AP7qjX6eDsHe1vy1KM2IeqlpstQQBYewvPlnXghX1hNBtIkPu9zZIN4kvg6dZk_Fs4zW11SWCouF7riOg226HeQ2DtRFf.jpg?r=e28">
+
+        </div>
+    </div>
+
+
+
+
+    <div class="netflixOriginals cataloguePadding">
+        <span>Netflix Originals</span>
+        <div class="flexStart xScroll originalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABTQJj1FvI1ofhJ9DgZcc_iMwHAywXv7aCCR1z4afNaiF25-fPDsO_BuAFZQa10Ajsi8mAVpg2JvhwHb8FO0Df59pA5T5upVVeOLEs3o2sHX50u6LtkYfFl_FWu2SOA.jpg?r=bd3">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABaE-KX6NX8TmAdq5GTCwJ2LVWud6IH4m52W9usO3yTKQ8eSeNYo9w3p7q_qnk7Hb-OxgOjxxrp1WQ-9W5QjxPt2QLIR2XjnuJx036m_zeXTrDYkf0YYMefPM0aDVmw.jpg?r=72f">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZS_ecF_l2OgfZ9G4SKpOt5QouF1YiBh7gASCBKUQCJxHXkbZmf38SxXkYc2wzq7yB_B5f3PJ1VzgxpPYuz5Ku7liW1QUZ5XTCrS8A2FhYxQHbb0FcRwVFwrWQkp2A.jpg?r=9a4">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABU-j1hbQ6ZraT7z5TWInTSfMX5Phy4cU3og2cM4oPP_snFwgjf5xAylXjU-cOw7U6MJeuV5iYpbCyu9XsMJpmCUoDr_VZb6aGEk4c_rmyR2rUwygP49G4zuTYVSGMw.jpg?r=320">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABe6OarKe2SmrbjJEt1S78rFlyg3M-S31_T_W-LQynFWh_dmlrXqc1HIY5nMlBkPOLE71ZQ_Px4IZBqpIWE5nvZGYAXafh7fB-SUwbXu9VMud7B4CtfITXtEii2Mv9g.jpg?r=bf0">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABRWluGg8MnmQQ0pYd6m0m34GMmRVN_E8na1IlShNEnWOjsdZsi59UKGvWnP4yPlM-7F7P0yLYmRRaWczU9OpaSsxK1fANe-Tie3Mavu8jBk808ZcaMypUqdTNZWdgWEgxYCoi3rGQOy7qwFs9-pIIZbHYB6uHY-paZsp9bS04Q.jpg?r=c5a">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABX8VDaoZ1jMrmohIBdtgsgB4QpHHPAZ8IgdO0sR2BN0KGNWocQ_qgmib4uANpgFWQj_Hx_AJo4uARAbAF1WpYyQX3c-TimO2gWuRyd55zDVLacc3xgB3vwVYfbuuev6nDfdb97vTkgzu3cHnfb4PoK8OVceViBw.jpg?r=0b5">
+
+
+
+        </div>
+
+    </div>
+
+    <!-- 4 normal -->
+
+    <div class="normalCatalogue cataloguePadding">
+        <span>US TV Series</span>
+        <div class="xScroll flexStart normalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABd-CfDMElyndVUd2BmaOmPh3oUNgE0VFvzmfOKt8DAmQ7BAAJWnpAUxENF3tq99x6eoCkXksJPyvGCEIp1ONnywLgJqJ0a4czzSzZZ57uKZ654o77XEfd-zjvB5Gnmsfs1tC1U3tJdJqlUFib2_6cXG3c7ROsA.jpg?r=ab0">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSW0zKZi3bsk34wxvn3dPGjFxSj06aTD6dOzEQU4_UU2J5WRBVXm-kAGkXjsf2q4KP5bD6TactIKnK1VGSPISkM4lt9AzjUAshyA79J_rQ2D-sLfU9I5Df6ZLz0oiaBpTcsy31txcwGid6SnVxd_SH80Pk3HmkRt1x5W3l6UydVR2TVSG0nXO4XNXaS_MgLlToBoAUQl2-a1QC7WiP2PNkZA.jpg?r=257">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTL7y_lPO3iCxXNqiEF2R0ZeFDz_5_witqWcPuM9LuKh-FYHG8pROnEOBMqoDvnpKQKDTURtlr706YC8FO6nvirNIt84IXnB_NGN0FP7Jrv329nhGGMn1My_n0pvV5L_jbTESq__3TPOJ9sHhDMTXWDafp8HSg.jpg?r=471">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSf_yKl73k9vuaUJhhXEC9J1ikgRvKdUelKB6u71LK2lwu0CDxX1PrT0nHn-heQ8HYSdaYVLuUjaG0iyOo0puUZxTfO4CkjX1CSwPeDyafOPk2S2bGuybJc__kA2.jpg?r=461">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRRPGJ0MF5fDxCM0kzs8QTnR0zRnyuqci7FSXqj0mMF_dx-tbZtVkfiYO9cta-sM_LNFH86XXY5ZZEC7isslH5tpjkpLfYznb9Q-wDIXc1viwrImzCet4wBPYxs1.jpg?r=f16">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRsjPkQizQKCoZxp0wz-ou5xzoj2bv7kK2q8kc2tjZtaBPO1Elycmw3ZCUnnI7kJEiT8bNYQ0rldY7asqqvd_yIQlPFjl434rDucM2Bh6VTPrfvYnpnWPqnrut-Z.jpg?r=e20">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbF8TnEobSl2r9EnjEB_pqAyiSnwujKGQoKIywsFjHRGqBFIGeQvc7cMCBQ_lsOL5htRj5W_lcUsrGH_ljt_fq1b_COt3DzxWnrDXTI2Ik-F7VQtympjYws9Al6O.jpg?r=ddf">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeZpQhEozqf0aiOAnN4s0JskyYhkE7doI8GMC7OwWmNLkwHxP-dtl3zh-iz3bY9P7GiHPc0-D8VI_rwba9tuOqkxI6XMdjTZUcNOvO1yC0ZQWZQEu2vXr5IpHZDX.jpg?r=8fb">
+
+        </div>
+    </div>
+
+    <div class="normalCatalogue cataloguePadding">
+        <span>Drama Programmes</span>
+        <div class="xScroll flexStart normalShow">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWpMEF4Wt7Gnd0iTv-IwUmo6q5DQq69IAg7FADpQPO2955fgTy6h3k8RHyKL-qoS1Ypy-hyWPrxoaFJXTYSP05wrRGsQ-Ber-bFW_goMvX5riSUJqPjtjyiz9PO5y6WZou7bMD85rVMXsp39ZMtmHTgoNiNrhw.jpg?r=d20">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYKz98Slo71kxt3yu8Ucpxebz0zWIv9wDI_wih8V2aIcDSAY7RSTxJ-EtrqjNAQYGVEekLPxvBsHSTvDJBKR1iil-Co7Q-csXXZcvixEVyd1GvuQQG8Ty6p5Q-aH.jpg?r=8ed">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRLYHWL2TnYwlAlSsIhA0EimIh_pSxSojzbLEeph3dQnS7BkEz6D_4jWGGK5-t9jmfg5KXVEwHeucPvEHrsUcF2sbw2t4AUHoALvjw06JE0HU93pJdDnjVELlXOD2d2P01w9-l-LxkfKLl1BEu_vPTZStnV9Ug.jpg?r=b92">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWa2jiMXbHLd2Ih11W6cxcl2CxT9PNxaEM0a6lq3IzI9lnT8rZMTf_z9qL6qWMyLJariEN3Shc9VV2Finn6snaZCJ3w.webp?r=879">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe0BWm80Bj7LNrSNQpIHMuVTtgwL5-SPoT8edIT_S47OdaWVLpXSRtqyCczgZ4zfvTM0D8mupcX5YKGx5h9c8BpNI227EGsIXAWubiz9fKioobidi_aha1xpqoTg.jpg?r=94d">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeeI7iI5Q3cnRovGksqQSc3jpNH2FJmF8gBK869OullEMyFzfOYsCRQT29KC3aSplK-ZzGMtmZKkUMnXLOUTzIRAMm5BHk3TD4tXLWhJmscv2gc6i2aabTlvBBvB.jpg?r=2d5">
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR3MC8MSCoFPmXBH1fWd7qQ_1GpeiZ-NK2tnnRnmpvTkCIViyQo0LPk-M0jLQBR3r7NrhxJXHQxftctRMFHNUEzpUbxnkoYVAH7_OX8izzGHggMTfncQRuOj0VbE.jpg?r=9b3">
+
+            <img src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABekLxcy_CZK03RA-5Czeo86id7eEr56AP7qjX6eDsHe1vy1KM2IeqlpstQQBYewvPlnXghX1hNBtIkPu9zZIN4kvg6dZk_Fs4zW11SWCouF7riOg226HeQ2DtRFf.jpg?r=e28">
+
+        </div>
+    </div>
+
+
+</div>
+
+<style>
+    .navBarWrapper {
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+    }
+
+
+    .navbar {
+        padding: 5px 10px;
+        background-color: transparent;
+        /* background-color: black; */
+        display: flex;
+    }
+
+
+    .navImg {
+        width: 9vw;
+        margin-right: 1.7em;
+    }
+
+    .navImg img {
+        width: 100%;
+    }
+
+    .navLink {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .navLinksDiv {
+        /* background-color: blue; */
+        width: 80%;
+    }
+
+    .coverPic {
+        width: 100%;
+        height: 550px;
+        background-image: url('https://assets.nflxext.com/us/boxshots/hd1080/80211726.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* background-color: teal; */
+    }
+
+
+    .movieCategories {
+        padding: 3px 45px;
+        font-size: 12px;
+        /* background-color: springgreen; */
+        color: white;
+    }
+
+    .movieCategories span {
+        margin: 0px 2px;
+    }
+
+    .bullet {
+        color: #A09F9F;
+    }
+
+    .movieOptionsDiv {
+        padding: 5px 30px;
+
+    }
+
+    .movieOption {
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .movieOption i {
+        margin-bottom: 3px;
+    }
+
+    .playButton {
+        background-color: white;
+
+        border-radius: 3px;
+        padding: 3px 40px;
+    }
+
+    .playButton span {
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    .showCatalogues {
+        padding: 10px 20px;
+    }
+
+    .cataloguePadding {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .normalCatalogue span,
+    .continueCatalogue span {
+
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+
+
+    .xScroll {
+        width: 100%;
+        overflow-x: scroll;
+        margin-top: 5px;
+
+    }
+
+
+    .originalShow {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .originalShow img {
+        width: 50vw;
+        margin-right: 10px;
+
+
+    }
+
+
+
+    .continueShowDetails i {
+        padding: 6px 12px;
+        color: white;
+    }
+
+
+    .normalShow img {
+        width: 40vw;
+        margin-right: 10px;
+        /* margin-top:5px; */
+    }
+
+
+    .netflixOriginals span {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .continueCatalogue {
+        overflow-x: scroll;
+        margin-top: 5px;
+    }
+
+
+    /* each show  */
+
+    .continueShow {
+        width: 40vw;
+        margin-right: 10px;
+    }
+
+    .continueShowDiv {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .continueShow img {
+        width: 40vw;
+    }
+
+
+    .continueShowDetails {
+        background-color: #1A1A1A;
+        /* width:100%; */
+        /* margin-right:10px; */
+    }
+
+    .continueShowDetails span {
+        padding: 6px 12px;
+        font-size: 13px;
+        color: white;
+    }
+</style>
+
+
+<script>
+    // in the end how the home page will be created dynamically:    
+    //(in the end wrapper type for normal will be 'normalMovieWrapper', each function will take document.getElementById('showCatalogues) --> big wrapper div below header pic, and just append to it.
+
+    //loadContinueWatching()
+
+    //loadMovieCatalogue('normalMovieWrapper1','Popular On Netflix');
+    //loadMovieCatalogue('normalMovieWrapper1','Trending Now');
+    //loadMovieCatalogue('normalMovieWrapper1','Critically-acclaimed TV Programmes');
+    //loadMovieCatalogue('normalMovieWrapper1','Suspenseful Western TV Shows');
+
+    //loadMovieloadMovieCatalogue('netflixOriginals','Netflix Originals');
+
+    //loadMovieCatalogue('normalMovieWrapper1','US TV Series');
+    //loadMovieCatalogue('normalMovieWrapper1','Drama Programmes');
+
+
+
+
+    loadMovieCatalogue('normalMovieWrapper1','Popular On Netflix');
+
+    async function loadMovieCatalogue(wrapperType, category) {
+        let movieCatalogueDiv = document.createElement('div');
+
+        //set movieDiv based on wrapper type normal or netflixOriginals
+        if (wrapperType == 'normalMovieWrapper1'){
+            movieCatalogueDiv.setAttribute('class', 'normalCatalogue cataloguePadding');
+        } else if (wrapperType == 'netflixOriginals'){
+            movieCatalogueDiv.setAttribute('class', 'netflixOriginals cataloguePadding');
+        }
+
+
+        movieCatalogueDiv.innerHTML = `<span>${category}</span>`
+
+
+        //dynamically populate movie catalogue based on data
+        let movies = document.createElement('div');
+
+        if (wrapperType == 'normalMovieWrapper1'){
+            movies.setAttribute('class', 'xScroll flexStart normalShow')
+        } else if (wrapperType == 'netflixOriginals'){
+            movies.setAttribute('class', 'flexStart xScroll originalShow')
+        }
+
+
+
+        let dbMovieCategory = [];
+
+        //loop through db data and create 'popular on netflix' movie catalogue list
+        for (let i = 0; i < dbMovieDetails.length; i++) {
+            if (dbMovieDetails[i].movieCategory == category) {
+                dbMovieCategory.push(dbMovieDetails[i])
+            }
+        }
+
+        //now that dbMovieCategory is populated with the correct movie objects, loop through and create thumbnail + add onclick
+
+        for (let i = 0; i < dbMovieCategory.length; i++) {
+            let thumbnailSrc = dbMovieCategory[i].movieThumbnail;
+
+            let thumbnail = document.createElement('img');
+            thumbnail.setAttribute('src', thumbnailSrc);
+            thumbnail.setAttribute('onclick', `loadDetails(${dbMovieCategory[i].movieID})`);
+
+            //after creating thumbnail img, appenchild into movies empty catalogue
+            movies.appendChild(thumbnail);
+
+        }
+
+        movieCatalogueDiv.appendChild(movies);
+        console.log(movieCatalogueDiv);
+
+
+        //should be document.getElementById('showCatalogue').appendChild(movieCatalogueDiv) and follow the above call.
+
+        //add the completed catalogue to body
+        document.getElementById(wrapperType).appendChild(movieCatalogueDiv);
+
+    }
+</script>

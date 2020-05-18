@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Netflix</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/home.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6441a2051f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../../main.js"></script>
+    <script src='../js/homePartial.js'></script>
+    <!-- <script src='../js/homeDetailsPartial.js'></script> -->
+</head>
+
+<body>
+    <div id="contentDiv">
+    
+    </div>
+
+
+    <!-- <div class="chromecastWrapper">
+        <div class="chromecast flexCenter">
+            <i class="fab fa-chromecast"></i>
+        </div>
+    </div> -->
+
+    <div class="footerNavWrapper">
+        <div class="footerNav flexBetween">
+            <div class="navIcon flexColumn activeTab" id='homeBtn' onclick="home()">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="navIcon flexColumn" id='searchBtn' onclick="search()">
+                <i class="fas fa-search"></i>
+                <span>Search</span>
+            </div>
+            <div class="navIcon flexColumn" id='comingSoonBtn' onclick="comingSoon()">
+                <i class="fas fa-photo-video"></i>
+                <span>Coming Soon</span>
+            </div>
+            <div class="navIcon flexColumn" id='downloadsBtn' onclick="downloads()">
+                <i class="fas fa-download"></i>
+                <span>Downloads</span>
+            </div>
+            <div class="navIcon flexColumn" id='moreBtn' onclick="more()">
+                <i class="fas fa-bars"></i>
+                <span>More</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

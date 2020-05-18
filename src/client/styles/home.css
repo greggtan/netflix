@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+    background-color: black;
+}
+
+
+
+
+.flexColumn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flexStart{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.flexBetween{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.flexAround{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chromecastWrapper{
+    position: fixed;
+    z-index: 99;
+    bottom:65px;
+    right:10px;
+    
+}
+
+.chromecast{
+    background-color: #353535;
+    border-radius:100%;
+    width:55px;
+    height:55px;
+
+}
+
+.chromecast i{
+    color:white;
+    font-size:25px;
+}
+
+
+.footerNavWrapper{
+    position: fixed;
+    bottom:0;
+    z-index:99;
+    width:100%;
+}
+
+.footerNav{
+    padding:13px 25px;
+    background-color: #1A1A1A;
+    display:flex;
+}
+
+.navIcon{
+    color:#5F5F5F;
+}
+
+.navIcon i{
+    font-size:20px;
+}
+.navIcon span{
+    font-size:10px;
+}
+
+.activeTab{
+    color:white;
+}
+
+#contentDiv{
+    margin-bottom:60px;
+}
